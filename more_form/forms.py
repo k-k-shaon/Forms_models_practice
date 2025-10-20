@@ -6,7 +6,7 @@ years = ['2001', '2002', '2003']
 colors= [('b', 'Blue'),('g', 'Green'),('bl', 'Black')]
 hobbieslist=[('r', 'Reading'),('t', 'Traveling'),('c', 'Coding')]
 
-class ExampleForm(forms.Form):
+class MoreForm(forms.Form):
     name = forms.CharField(label="Enter your full name")
     comment = forms.CharField(widget=forms.Textarea, label="Describe yourself")
     email = forms.EmailField(label="Enter email address")
